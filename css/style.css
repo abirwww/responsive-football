@@ -1,0 +1,207 @@
+
+
+body{
+    margin-top: 0;
+    margin-left: 0;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    width: 1536px;
+    height: 675px;
+    background-color: blue;
+    margin-top: 0px;
+}
+
+.caption{
+    margin-left: 156px;
+    margin-top: 150px;
+    color: aliceblue;
+    font-size: 64px;
+    font-weight: 700;
+}
+.caption button{
+    display: block;
+    border-radius: 5px;
+    width: 168px;
+    height: 44px;
+    background: #E02C6D;
+    color: aliceblue;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    transition: letter-spacing 0.9s;
+}
+.caption button:hover{
+    background-color: blue;
+    border-color: azure;
+    font-weight: 800;
+    letter-spacing: 2px;
+    transition: letter-spacing 0.9s;
+}
+
+.caption-and-banner .banner img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 135px;
+    margin-right: 140px;
+    position: relative;  
+}
+
+.caption-and-banner .banner img:hover{
+    
+}
+.caption-and-banner{
+    display: flex;
+}
+#football img{
+    height: 50px;
+    margin-top: 280px;
+    position: absolute;
+    margin-left: 15px;   
+}
+.caption-and-banner #banner img:hover{
+    transform: translateX(0rem);
+}
+
+main:hover #football{
+    transform: translateZ(4rem);
+}
+
+
+/* ---------------
+    Players Style 
+------------------*/
+
+.player{
+width: 330px;
+height: 474px;
+margin: 0px;
+}
+.player img{
+width: 250px;
+height: 200px;
+margin: 23px;
+}
+
+
+/* ---------------
+Individual Players 
+-------------------*/
+
+.fav-players{
+    margin-top: 50px;
+    margin-left: 180px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+    
+}
+.player-details{
+    width: 300px;
+    height: 426px;
+    margin: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img{
+    margin: 23px 23px 5px 23px;  
+}
+.player h3{
+    margin: 0px 23px 0px 23px;  
+}
+.player p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #6C6C6C;
+    margin: 5px 23px 5px 23px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.player-info{
+    width: 300px;
+    height: 154px;
+}
+
+
+
+/*-----------------------
+        Live Section 
+ ------------------------*/
+ .highlight-details{
+    display: flex;
+    justify-content: space-around;
+    
+ }
+
+ .match-live img{
+    width: 567px;
+    height: 427px;
+ }
+
+ .highlight-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: -50px;
+
+ }
+ .highlight-para{
+    margin-top: 0px;
+ }
+
+ .highlights{
+    width: 469px;
+    height: 309px;
+    
+ }
+
+ .highlights button{
+    border-radius: 5px;
+    width: 168px;
+    height: 44px;
+    background: #252223;
+    color: rgb(241, 14, 14);
+    margin-top: 0px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    transition: letter-spacing 0.9s;
+     
+ }
+
+ .highlights button:hover{
+    background-color: rgb(25, 25, 32);
+    border-color: rgb(245, 6, 6);
+    font-weight: 800;
+    letter-spacing: 2px;
+    transition: letter-spacing 0.9s;
+}
+
+
+
+ /* ------------------------=--
+        Footer
+------------------------------ */
+
+.footer-section .smm{
+    margin-top: 20px;
+    margin-left: 700px;
+    color: #6C6C6C;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    width: 236px;
+    height: 30px;
+}
+
+.footer-section .footer-logo img{
+    width: 483.87px;
+    height: 110px;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+.footer-section p{
+    margin-left: 620px;
+}

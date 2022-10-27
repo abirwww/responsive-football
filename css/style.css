@@ -205,3 +205,107 @@ Individual Players
 .footer-section p{
     margin-left: 620px;
 }
+
+
+/* -------------------------
+        Responsive Design 
+-----------------------------*/
+
+
+/* For Mobile */
+
+@media only screen and (max-width: 688px) {
+ 
+    main{
+        width: 377px;
+        background-color: blue;
+        margin-top: 0px;
+    }
+.caption{
+    margin-top: -40px;
+    margin-left: 25px;
+    font-size: 52px;
+    font-weight: 700;
+    width: 40px;
+    
+}
+
+.caption p{
+    
+    line-height: 50px;
+}
+.caption-and-banner{
+    display: inline-block;
+}
+
+.caption-and-banner .banner img{
+    height: 300px;
+    width: 300px;
+    margin-top: -40px;
+    
+}
+
+.caption-and-banner #football img{
+    margin-top: 0px;
+} 
+
+.fav-players{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.player{
+    margin-left: -190px;
+    
+}
+.highlight-details{
+    display: inline-block;
+    
+}
+.highlight-title{
+    font-weight: 100;
+    font-size: 27px;
+    line-height: 35px;
+    margin-bottom: -50px;
+    width: 300px;
+
+ }
+ .highlight-para{
+    margin-top: 50px;
+    width: 300px;
+ }
+ .match-live img{
+    margin-top: 100px;
+    width: 307px;
+    height: 300px;
+ }
+
+ /* footer */
+
+ .footer-section .smm{
+    margin-top: 2px;
+    margin-left: 110px;
+    color: #6C6C6C;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    width: 236px;
+    height: 30px;
+}
+
+.footer-section .footer-logo img{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.footer-section p{
+    margin-left: 28px;
+}
+
+}
+/* --------------------------- */
+
+/* For Tablet */
+

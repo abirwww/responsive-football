@@ -218,30 +218,51 @@ Individual Players
  
     main{
         width: 377px;
+        height: 370px;
         background-color: blue;
         margin-top: 0px;
     }
 .caption{
-    margin-top: -40px;
-    margin-left: 25px;
-    font-size: 52px;
+    margin-top: -20px;
+    margin-left: 5px;
+    font-size: 25px;
     font-weight: 700;
     width: 40px;
     
 }
 
-.caption p{
-    
-    line-height: 50px;
+.caption button{
+    display: block;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    background: #a2053e;
+    color: aliceblue;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    transition: letter-spacing 0.9s;
 }
+.caption button:hover{
+    background-color: blue;
+    border-color: azure;
+    font-weight: 800;
+    letter-spacing: 2px;
+    transition: letter-spacing 0.9s;
+}
+
+.caption p{
+    line-height: 30px;
+}
+
 .caption-and-banner{
     display: inline-block;
 }
 
 .caption-and-banner .banner img{
-    height: 300px;
-    width: 300px;
-    margin-top: -40px;
+    height: 180px;
+    width: 180px;
+    margin-top: -20px;
     
 }
 
@@ -249,59 +270,116 @@ Individual Players
     margin-top: 0px;
 } 
 
+/* Players Section */
+
+.player{
+    width: 330px;
+    height: 474px;
+    margin: 0px;
+    }
+    .player img{
+    width: 150px;
+    height: 200px;
+    margin-left: 5px;
+    }
+
 .fav-players{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     
 }
+/* .player-details{
+    width: 50px;
+    height: 426px;
+    margin: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+} */
+.player img{
+    /* margin: 5px 5px 5px 5px;   */
+}
+.player h3{
+    margin: 0px 23px 0px 5px; 
+    font-size: 15px; 
+}
+.player p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #6C6C6C;
+    margin: 5px 150px 5px 5px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.player-info{
+    width: 250px;
+    height: 154px;
+}
 .player{
     margin-left: -190px;
     
 }
+
+
+/* Highlights */
 .highlight-details{
     display: inline-block;
     
 }
 .highlight-title{
     font-weight: 100;
-    font-size: 27px;
+    font-size: 20px;
     line-height: 35px;
     margin-bottom: -50px;
-    width: 300px;
-
+    
+    width: 200px;
  }
+ .highlights .highlight-title h3{
+    margin-left: 5px;
+ }
+
  .highlight-para{
     margin-top: 50px;
-    width: 300px;
+    width: 180px;
+    font-size: 11px;
+    margin-left: 5px;
  }
  .match-live img{
-    margin-top: 100px;
-    width: 307px;
-    height: 300px;
+    margin-top: -40px;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
  }
 
  /* footer */
 
- .footer-section .smm{
-    margin-top: 2px;
-    margin-left: 110px;
-    color: #6C6C6C;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    width: 236px;
-    height: 30px;
-}
 
 .footer-section .footer-logo img{
-    width: 200px;
-    height: 50px;
-    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+
+.footer-section .smm{
+    margin-top: 0px;
     margin-left: 50px;
+    color: #a7a2a2;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 4px;
+    width: 236px;
+    height: 30px;
+    
 }
 
 .footer-section p{
     margin-left: 28px;
+    font-size: 10px;
+    margin-top: 0px;
 }
 
 }
